@@ -205,3 +205,171 @@ Proyecto académico realizado por el **Grupo 3**.
 ## Estado del proyecto
 
 Proyecto académico de desarrollo de una aplicación web para la gestión y organización de tareas por materias.
+## Curva S – Seguimiento del proyecto
+
+La curva S representa la evolución acumulada de las horas dedicadas al desarrollo del proyecto desde el 11 de mayo hasta el 23 de noviembre de 2026.
+
+Se propone una distribución variable del esfuerzo:
+- **Inicio:** menor dedicación, enfocada en organización, análisis y planificación.
+- **Desarrollo:** aumento progresivo de las horas destinadas a programación del frontend y backend.
+- **Integración y pruebas:** mayor dedicación para integrar funcionalidades, detectar errores y realizar correcciones.
+- **Cierre:** reducción de las horas destinadas a ajustes finales y documentación.
+
+### Registro semanal estimado
+
+| Fecha | Horas semanales | Horas acumuladas |
+|---|---:|---:|
+| 11/05/2026 | 2 | 2 |
+| 18/05/2026 | 2 | 4 |
+| 25/05/2026 | 2 | 6 |
+| 01/06/2026 | 3 | 9 |
+| 08/06/2026 | 3 | 12 |
+| 15/06/2026 | 3 | 15 |
+| 22/06/2026 | 4 | 19 |
+| 29/06/2026 | 4 | 23 |
+| 06/07/2026 | 4 | 27 |
+| 13/07/2026 | 4 | 31 |
+| 20/07/2026 | 4 | 35 |
+| 27/07/2026 | 4 | 39 |
+| 03/08/2026 | 5 | 44 |
+| 10/08/2026 | 5 | 49 |
+| 17/08/2026 | 5 | 54 |
+| 24/08/2026 | 5 | 59 |
+| 31/08/2026 | 5 | 64 |
+| 07/09/2026 | 5 | 69 |
+| 14/09/2026 | 5 | 74 |
+| 21/09/2026 | 5 | 79 |
+| 28/09/2026 | 5 | 84 |
+| 05/10/2026 | 5 | 89 |
+| 12/10/2026 | 5 | 94 |
+| 19/10/2026 | 5 | 99 |
+| 26/10/2026 | 4 | 103 |
+| 02/11/2026 | 4 | 107 |
+| 09/11/2026 | 4 | 111 |
+| 16/11/2026 | 3 | 114 |
+| 23/11/2026 | 2 | 116 |
+
+### Resumen de horas por etapa
+
+| Etapa | Horas estimadas |
+|---|---:|
+| Inicio y planificación | 15 |
+| Diseño y preparación | 24 |
+| Desarrollo e implementación | 60 |
+| Integración y pruebas | 12 |
+| Cierre y documentación | 5 |
+| **Total** | **116 horas** |
+
+**Resultado:** se estima una dedicación acumulada de 116 horas durante el período considerado.
+
+> Nota: esta curva es una estimación variable que conserva las 116 horas totales. Si se registraron exactamente 4 horas todos los lunes, la curva correspondiente debe ser lineal y no esta distribución.
+
+---
+
+## WBS – Estructura de Desglose del Trabajo
+
+El WBS (Work Breakdown Structure) permite dividir el proyecto en etapas, actividades y entregables para facilitar su planificación, organización y seguimiento.
+
+### 1. Gestión y organización del proyecto
+- 1.1 Organización del equipo.
+- 1.2 Distribución de responsabilidades.
+- 1.3 Coordinación y seguimiento de actividades.
+- 1.4 Control del avance del proyecto.
+
+**Entregable:** planificación y organización del equipo.
+
+### 2. Análisis y definición de requisitos
+- 2.1 Identificación del problema.
+- 2.2 Definición de objetivos.
+- 2.3 Identificación de usuarios y necesidades.
+- 2.4 Definición de funcionalidades.
+- 2.5 Establecimiento del alcance.
+
+**Entregable:** requisitos funcionales y alcance del sistema.
+
+### 3. Diseño del sistema
+- 3.1 Diseño de la arquitectura cliente-servidor.
+- 3.2 Diseño de la estructura del frontend.
+- 3.3 Diseño de la API.
+- 3.4 Diseño de la base de datos.
+- 3.5 Definición de relaciones entre tareas y materias.
+
+**Entregable:** diseño técnico y modelo de datos.
+
+### 4. Desarrollo del backend
+- 4.1 Configuración de Node.js y Express.
+- 4.2 Configuración de PostgreSQL.
+- 4.3 Implementación de modelos.
+- 4.4 Implementación de servicios.
+- 4.5 Implementación de controladores.
+- 4.6 Implementación de rutas.
+- 4.7 Desarrollo de validaciones.
+- 4.8 Implementación de operaciones CRUD para tareas.
+- 4.9 Implementación de operaciones CRUD para materias.
+
+**Entregable:** API funcional conectada a la base de datos.
+
+### 5. Desarrollo del frontend
+- 5.1 Estructuración de HTML.
+- 5.2 Diseño visual mediante CSS.
+- 5.3 Implementación de funcionalidades con JavaScript.
+- 5.4 Creación de tareas.
+- 5.5 Edición y eliminación de tareas.
+- 5.6 Marcado de tareas como completadas.
+- 5.7 Administración de materias.
+- 5.8 Implementación de búsqueda.
+- 5.9 Personalización visual.
+- 5.10 Adaptación responsive.
+
+**Entregable:** interfaz web funcional.
+
+### 6. Integración del sistema
+- 6.1 Conexión entre frontend y backend.
+- 6.2 Integración con PostgreSQL.
+- 6.3 Verificación de solicitudes HTTP.
+- 6.4 Manejo de respuestas y errores.
+- 6.5 Migración de datos anteriores desde localStorage.
+
+**Entregable:** aplicación integrada.
+
+### 7. Pruebas y control de calidad
+- 7.1 Pruebas unitarias.
+- 7.2 Pruebas de integración.
+- 7.3 Verificación de validaciones.
+- 7.4 Pruebas de endpoints.
+- 7.5 Detección y corrección de errores.
+- 7.6 Verificación del funcionamiento general.
+
+**Entregable:** sistema probado y corregido.
+
+### 8. Documentación y entrega
+- 8.1 Elaboración del README.
+- 8.2 Documentación técnica.
+- 8.3 Elaboración del WBS.
+- 8.4 Elaboración de la curva S.
+- 8.5 Organización de archivos del repositorio.
+- 8.6 Preparación de la entrega final.
+
+**Entregable:** documentación y proyecto final.
+
+### Resumen del WBS
+
+| Código | Paquete de trabajo | Resultado |
+|---|---|---|
+| 1 | Gestión y organización | Equipo organizado |
+| 2 | Análisis y requisitos | Requisitos definidos |
+| 3 | Diseño | Arquitectura y modelo de datos |
+| 4 | Backend | API y base de datos |
+| 5 | Frontend | Interfaz web |
+| 6 | Integración | Sistema conectado |
+| 7 | Pruebas | Sistema verificado |
+| 8 | Documentación y entrega | Proyecto documentado |
+
+## Conclusión del seguimiento
+
+La planificación contempla las etapas principales del desarrollo del Gestor de Tareas por Materias, desde la organización inicial hasta la documentación y entrega final.
+
+El WBS permite visualizar y organizar el trabajo, mientras que la curva S permite representar la evolución acumulada del esfuerzo durante el proyecto.
+
+
+
